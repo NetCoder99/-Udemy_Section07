@@ -1,0 +1,46 @@
+.goal-list-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.goal-list-table tr {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+.goal-list-table td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.goal-list-table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: lightgray;
+}
+
+.goal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.goal-list.col1 {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 5em;
+  text-align: left;
+  background-color:blueviolet ;
+}
+.goal-list.col2 {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  text-align: right;
+}
